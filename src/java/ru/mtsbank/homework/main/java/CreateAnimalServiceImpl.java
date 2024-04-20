@@ -5,10 +5,11 @@ public class CreateAnimalServiceImpl implements CreateAnimalService, Cloneable {
         for(int i=0;animals<N;i++){
             animals++;
         }
-        System.out.println("Создано"+ animals + "животных.");
+        System.out.println("Создано "+ animals + " животных.");
     }
 
-    public void createAnimal(int A){
+ /*   public void createAnimal(){
+        //TODO дописать
         int animals = A;
         do
         {
@@ -19,5 +20,5 @@ public class CreateAnimalServiceImpl implements CreateAnimalService, Cloneable {
 
     public void createAnimal(int B){
 
-    }
+    }*/
 }

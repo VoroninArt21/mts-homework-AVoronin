@@ -21,7 +21,7 @@ public interface CreateAnimalService {
                 default:
                     System.out.println("Check your animals");
             }
-            System.out.println("Создано" + animal[i]);
+            System.out.println("Создано " + animal[i]);
             i++;
         }
     }
