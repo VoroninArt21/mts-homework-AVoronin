@@ -4,6 +4,9 @@ public class Main {
         createAnimalService.createAnimal();
 
         CreateAnimalServiceImpl createAnimalServiceImpl = new CreateAnimalServiceImpl();
-        createAnimalServiceImpl.createAnimal(5);
+        createAnimalServiceImpl.createAnimal(10);
+        CreateAnimalServiceImpl createAnimalServiceImpl1 = new CreateAnimalServiceImpl();
+        createAnimalServiceImpl.createAnimal();
+
     }
 }
