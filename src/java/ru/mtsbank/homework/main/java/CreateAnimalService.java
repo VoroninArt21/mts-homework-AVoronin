@@ -4,7 +4,7 @@ public interface CreateAnimalService {
         Animal[] animal = new Animal[10];
         int i = 0;
         while (i < animal.length) {
-            int animalType = (int) (Math.random()*4);   //0-3
+            int animalType = (int) (Math.random()*4);   //значения 0-3
             switch(animalType){
                 case 0:
                     animal[i]= new Wolf();
