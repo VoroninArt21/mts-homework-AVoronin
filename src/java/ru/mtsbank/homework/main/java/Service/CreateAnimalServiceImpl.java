@@ -1,4 +1,12 @@
-public class CreateAnimalServiceImpl implements CreateAnimalService, Cloneable {
+package Service;
+
+import Animals.*;
+import Service.Animal;
+import Service.CreateAnimalService;
+
+public class CreateAnimalServiceImpl implements CreateAnimalService {
+
+
     public void createAnimal(int N){
         Animal animal[] = new Animal[N];
         int animalType = (int)(Math.random()*4);
@@ -25,8 +33,10 @@ public class CreateAnimalServiceImpl implements CreateAnimalService, Cloneable {
         System.out.println("Создано "+ animal.length + " животных с помощью for.");
     }
 
-    @Override
-    public void createAnimal(){
+
+
+   @Override
+   public void createAnimal(){
         Animal[] animal = new Animal[10];
         int i = 0;
         do

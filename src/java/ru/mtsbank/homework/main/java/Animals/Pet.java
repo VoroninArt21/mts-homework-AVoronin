@@ -1,4 +1,8 @@
-public class Pet extends AbstractAnimal{
+package Animals;
+
+import Service.AbstractAnimal;
+
+public class Pet extends AbstractAnimal {
     public Pet(String breed, String name, double cost, String character){
         this.setBreed(breed);
         this.setName(name);

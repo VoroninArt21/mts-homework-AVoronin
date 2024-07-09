@@ -1,3 +1,5 @@
+package Service;
+
 public abstract class AbstractAnimal implements Animal {
     protected String breed;
     protected String name;

@@ -1,3 +1,5 @@
+package Service;
+
 public interface Animal {
     String getBreed();
     String getName();

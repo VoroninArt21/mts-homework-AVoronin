@@ -1,14 +1,15 @@
-public class Cat extends Pet{
+package Animals;
 
+public class Dog extends Pet {
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Animals.Dog{" +
                 "breed='" + breed + '\'' +
                 ", name='" + name + '\'' +
                 ", cost=" + cost +
                 ", character='" + character + '\'' +
                 '}';
     }
-    public Cat() {
+    public Dog() {
     }
 }
