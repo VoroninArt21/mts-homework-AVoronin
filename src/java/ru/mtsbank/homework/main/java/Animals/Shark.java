@@ -1,13 +1,17 @@
-public class Wolf extends Predator{
+package Animals;
+
+import Animals.Predator;
+
+public class Shark extends Predator {
     @Override
     public String toString() {
-        return "Wolf{" +
+        return "Animals.Shark{" +
                 "breed='" + breed + '\'' +
                 ", name='" + name + '\'' +
                 ", cost=" + cost +
                 ", character='" + character + '\'' +
                 '}';
     }
-    public Wolf() {
+    public Shark() {
     }
 }
